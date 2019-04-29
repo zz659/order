@@ -10,6 +10,7 @@
 
 ### base 函数
 killTomcat()
+
 {
     pid=`ps -ef|grep tomcat|grep java|awk '{print $2}'`
     echo "tomcat Id list :$pid"
